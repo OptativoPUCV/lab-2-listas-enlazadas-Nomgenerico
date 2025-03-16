@@ -54,3 +54,9 @@ list.c:42:1: error: control reaches end of non-void function [-Werror=return-typ
 cc1.exe: all warnings being treated as errors
 Compilation failed
 33b4b1f
+Sun, Mar 16, 2025  6:58:56 PM: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  2|5
+total_score: 15/70
+89d4e88
