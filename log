@@ -2,3 +2,17 @@ Sun, Mar 16, 2025  3:31:21 PM:
  tests:  0|6
 total_score: 0/70
 25021aa
+Sun, Mar 16, 2025  6:37:56 PM: 
+ list.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'createList':
+list.c:34:10: error: 'List {aka struct List}' has no member named 'size'
+     lista->size = 0 ;
+          ^~
+list.c:35:5: error: 'list' undeclared (first use in this function)
+     list->current = NULL ;
+     ^~~~
+list.c:35:5: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+316edd7
