@@ -91,3 +91,14 @@ Sun, Mar 16, 2025  7:05:34 PM:
  tests:  5|4
 total_score: 25/70
 4340e67
+Sun, Mar 16, 2025  7:06:30 PM: 
+ list.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'lastList':
+list.c:54:31: error: 'list_tail' undeclared (first use in this function)
+     if (list->current) return list_tail ;
+                               ^~~~~~~~~
+list.c:54:31: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+357a08b
