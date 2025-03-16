@@ -218,3 +218,14 @@ Sun, Mar 16, 2025  7:43:39 PM:
  1 file changed, 2 insertions(+)
  tests:  0|0
 3084ee9
+Sun, Mar 16, 2025  7:45:11 PM: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:106:23: error: 'prev' undeclared (first use in this function)
+     if (list->current-prev != NULL) list->current->prev->next = list->current->next ;
+                       ^~~~
+list.c:106:23: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+97d225d
