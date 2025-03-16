@@ -272,3 +272,17 @@ Sun, Mar 16, 2025  8:10:12 PM:
  tests:  11|1
 total_score: 55/70
 3da55ff
+Sun, Mar 16, 2025  8:12:14 PM: 
+ list.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:109:35: error: statement with no effect [-Werror=unused-value]
+         list->current->next->prev == NULL ;
+                                   ^
+list.c:115:35: error: statement with no effect [-Werror=unused-value]
+         list->current->prev->next == NULL ;
+                                   ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+1f61efc
