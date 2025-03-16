@@ -70,6 +70,7 @@ void pushFront(List * list, void * data) {
     }
     else {
         list->head->prev = nuevoNodo ;
+        nuevoNodo->next = list->head ;
         list->head = nuevoNodo ;
     }
 }
