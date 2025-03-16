@@ -174,3 +174,13 @@ Sun, Mar 16, 2025  7:21:01 PM:
  tests:  10|2
 total_score: 45/70
 65665b8
+Sun, Mar 16, 2025  7:25:32 PM: 
+ list.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'pushCurrent':
+list.c:87:14: error: 'Node {aka struct Node}' has no member named 'current'
+     nuevoNodo->current->next = nuevoNodo ;
+              ^~
+Compilation failed
+fedf8b9
