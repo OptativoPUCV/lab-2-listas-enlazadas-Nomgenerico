@@ -347,3 +347,9 @@ Sun, Mar 16, 2025  8:27:02 PM:
  1 file changed, 2 insertions(+), 1 deletion(-)
  tests:  0|0
 c3a113e
+Sun, Mar 16, 2025  8:35:05 PM: 
+ list.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+ tests:  11|1
+total_score: 55/70
+ca8e18f
