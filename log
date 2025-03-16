@@ -184,3 +184,14 @@ list.c:87:14: error: 'Node {aka struct Node}' has no member named 'current'
               ^~
 Compilation failed
 fedf8b9
+Sun, Mar 16, 2025  7:26:12 PM: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'pushCurrent':
+list.c:87:5: error: 'lista' undeclared (first use in this function)
+     lista->current->next = nuevoNodo ;
+     ^~~~~
+list.c:87:5: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+696a497
