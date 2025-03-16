@@ -245,3 +245,9 @@ list.c:115:35: error: 'List {aka struct List}' has no member named 'tai'; did yo
                                    ^~
 Compilation failed
 d1b530d
+Sun, Mar 16, 2025  7:56:09 PM: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  11|1
+total_score: 55/70
+bb46069
