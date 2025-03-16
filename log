@@ -16,3 +16,13 @@ list.c:35:5: error: 'list' undeclared (first use in this function)
 list.c:35:5: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 316edd7
+Sun, Mar 16, 2025  6:38:15 PM: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'createList':
+list.c:34:10: error: 'List {aka struct List}' has no member named 'size'
+     lista->size = 0 ;
+          ^~
+Compilation failed
+f2d6004
