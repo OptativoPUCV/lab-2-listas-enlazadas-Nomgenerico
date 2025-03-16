@@ -114,3 +114,14 @@ Sun, Mar 16, 2025  7:07:12 PM:
  tests:  6|4
 total_score: 25/70
 0fb4d0b
+Sun, Mar 16, 2025  7:08:22 PM: 
+ list.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'prevList':
+list.c:60:37: error: statement with no effect [-Werror=unused-value]
+     if (list->current) list->current->data ;
+                        ~~~~~~~~~~~~~^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+9981669
